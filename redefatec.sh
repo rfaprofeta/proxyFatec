@@ -2,8 +2,8 @@
 #trocando de rede, troca de proxy
 user="***"
 password="*********"
-proxyFull="http_proxy=http://2840481723"$user":"$password
-proxyNull="http_proxy"
+proxyFull="https_proxy=http://2840481723"$user":"$password"@172.16.0.1:3128/
+proxyNull="https_proxy"
 proxy=""
 rede="search wifi.fatecrp.local"
 ip=`cat /etc/resolv.conf | grep wifi`
