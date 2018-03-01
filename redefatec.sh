@@ -1,6 +1,6 @@
 #!/bin/bash
 #trocando de rede, troca de proxy
-user="030"
+user="***"
 password="*********"
 proxyFull="http_proxy=http://2840481723"$user":"$password
 proxyNull="http_proxy"
